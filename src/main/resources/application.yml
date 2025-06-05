@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/hotel?createDatabaseIfNotExist=true
+    username : root
+    password : methmin123
+
+  jpa:
+    hibernate:
+      ddt-auto : update
