@@ -9,8 +9,4 @@ import java.util.Map;
 @Component
 public class JwtUtil {
 
-    private String genarateToken(Map<String,Object> extraClaims , UserDetails userDetails){
-        return Jwts.builder().setClaims(extraClaims).setSubject(userDetails.getUsername());
-    }
-
 }
