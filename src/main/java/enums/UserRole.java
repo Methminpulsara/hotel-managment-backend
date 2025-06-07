@@ -1,4 +1,4 @@
-package edu.icet.ecom.util;
+package enums;
 
 public enum UserRole {
 
